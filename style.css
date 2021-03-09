@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+.container {
+    background-image: linear-gradient(0deg, rgba(1, 8, 50, 0.75), rgba(0, 0, 0, 0.75)), url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/53d82770784953.5bae9dbd4fa74.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-family: Spartan, sans-serif;
+}
+
+
+h1 {
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.fab {
+    color: #fff;
+    font-size: 2rem;
+    padding: 25px;
+    transition: transform .75s;
+}
+
+.fab:hover {
+    transform: scale(1.2);
+    color: #ffd49f
+}
+
+span.bio {
+    display: block;
+}
+
+#bio {
+    display: block;
+}
+
+.social {
+    display: flex;
+    
+    justify-content: center;
+   
+}
+
+
+.grey {
+    color: #F29422
+}
+
+footer {
+    padding-top: 40px;
+    color: #fff;
+    font-size: .5rem;
+}
+
+ a {
+    text-decoration: none;
+    color: #fff;
+    transition: color .75s;
+}
+
+a:hover {
+   
+    color: #ffd49f
+}
+
+/* Responsive Styles */
+
+@media (max-width: 600px) {
+    span {
+        text-align: center;
+    }
+
+    .fab {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+}

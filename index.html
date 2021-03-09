@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TykeJones</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=foggedinkitchen.com">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1 class="title" data-aos="fade-up">tyke<span class="grey">jones</span> </h1>
+    </div>
+    <div class="bio">
+    <span class="bio">
+        <h2 id="bio"><span class="white bio" data-aos="fade-right" data-aos-delay="1000">Front End Creator.</span> 
+        <span class="grey bio" data-aos="fade-left" data-aos-delay="2000">Picture Taker.</span>
+          <span class="white bio" data-aos="fade-right" data-aos-delay="3000" >Food Maker.</span>
+    </h2></span>
+
+
+    <div class="social" data-aos="fade-down">
+        <a href="https://www.linkedin.com/in/tykejones/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://unsplash.com/@tykejones" target="_blank"><i class="fab fa-unsplash"></i></a>
+        <a href="https://github.com/tykejones" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.behance.net/TykeJones" target="_blank"><i class="fab fa-behance-square"></i></a>
+        <a href="https://www.instagram.com/tykejones/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+    </div>
+
+  </div>
+
+    <footer class="footer">
+      <p class="copyright">&copy;2021 <a href="https://tykejones.com">tykejones.com</a>
+    </footer>
+
+
+</div>
+
+
+    
+   
+    <!--Script  -->
+   <script src="script.js"> </script> 
+   <!--AOS.js  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+  delay: 200, // values from 0 to 3000, with step 50ms
+  duration: 1500, // values from 0 to 3000, with step 50ms
+  once: false, // whether animation should happen only once - while scrolling down
+  });
+</script>
+<!-- Navigation Script -->
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+</body>
+</html>
